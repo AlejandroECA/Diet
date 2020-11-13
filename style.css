@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: '';
+    src: url('/moonday/Moonday.ttf') format('truetype');
+}
+
+
+.jumbotron{
+    background-image: url('https://media.giphy.com/media/o9ngTPVYW4qo8/giphy.gif');
+    background-size: cover;
+    background-position-y: 50%;
+    /* font-family: 'moonday'; */
+}
+
+/* .jumboH1{
+    font-size: 3rem;
+}
+
+.jumboSub{
+    color: white;
+    font-size: 2rem;
+}
+
+.navTitle{
+    font-size: 2rem;
+} */
+
+.navigation {
+    /* background-image: url('https://media.giphy.com/media/3oEjHVSUZWvTnNxQZ2/giphy.gif'); */
+    background-image: url('https://media.giphy.com/media/mRwX2ypdGtfa0/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-y: 50%;
+    background-position-x: 120%;
+    
+    /* font-family: 'moonday'; */
+    /* font-size: 1.5rem; */
+}
+
+
+.dropdown{
+    color:gray
+}
+
+.dropdown:hover{
+    color:black
+}
+
+.dropdown-menu{
+    background-image:url('https://media.giphy.com/media/3oEjHVSUZWvTnNxQZ2/giphy.gif') ;
+}
+
+.btn-search{
+    background-color: palevioletred;
+    color: white;
+    border-color: pink;
+    /* font-size: 1.5rem; */
+}
+
+.btn-search:hover{
+    background-color: rgb(162, 87, 231);
+    color: white;
+    border-color: pink;
+}
+
+.search-box{
+    /* font-size: 1.5rem; */
+}
+
+.search-box:focus{
+    border: 3px solid pink;
+
+    box-shadow : 5px 5px plum;
+}
+
+.buttonNavBar{
+    border-width: 0px;
+}
+
+.buttonNavBar:focus{
+    box-shadow : 5px 5px plum;
+    border-color: palevioletred;
+    outline-color: palevioletred;
+}
+
+input[type="search"]::placeholder {  
+
+    text-align: center; 
+} 
