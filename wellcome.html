@@ -33,42 +33,41 @@
 
 
     <!-- navigation bar -->
-    <nav class=" navigation navbar navbar-expand-lg navbar-light bg-light mt-0 ">
-
+    <nav class=" navigation navbar navbar-expand-lg navbar-light bg-light mt-0">
         <!-- navigation bar title -->
-        <a class=" navTitle navbar-brand pt-2" href="wellcome.html " ><img class=" img-fluid" src="https://media.giphy.com/media/mBkVvrJKEBtvGZXERx/giphy.gif" width="70px" >Home</a>
-
+        <a class=" navTitle navbar-brand pt-2" href="wellcome.html " ><img class=" img-fluid" src="https://media.giphy.com/media/mBkVvrJKEBtvGZXERx/giphy.gif" width="40px" >Home</a>
+    
         <!-- button -->
-        <button class=" buttonNavBar navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span><img class=" img-fluid " width="40px" src="https://media.giphy.com/media/9Jvc70Yl7piHUWlthZ/giphy.gif" ></span>
+        <button class="buttonNavBar ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=" lm-auto" ><img class=" img-fluid " width="40px" src="https://media.giphy.com/media/9Jvc70Yl7piHUWlthZ/giphy.gif" ></span>
         </button>
-
         <!-- navigation button list -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class=" collapse navbar-collapse" id="navbarSupportedContent">
 
             <ul class="navbar-nav mr-auto">
-
-                <li class="nav-item-active">
-                    <a class="nav-link" href="#">1st Step</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">2nd Step</a>
-                </li>
 
                 <li class="nav-item dropdown mt-2" >
                     <a id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Your Diet
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Keto<a>
+                        <a class="dropdown-item" href="#ketoCard">Keto<a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Carnivore</a>
+                        <a class="dropdown-item" href="#carniCard">Carnivore</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Vegan</a>
+                        <a class="dropdown-item" href="#veganCard">Vegan</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Regular</a>
+                        <a class="dropdown-item" href="#regularCard">Regular</a>
                     </div>
+                </li>
+
+                <li class=" nav-item ">
+
+                    <a class=" mt-2 mt-lg-0 ml-lg-2 nav-link " href="#">1st Step</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">2nd Step</a>
                 </li>
 
             </ul>
@@ -83,7 +82,110 @@
                   
         </div>
     </nav>
-  
+
+    <!-- brief description -->
+            <div class="mx-5 my-5" >
+                <div class="card whatsThisCard text-center">
+                    <div class="card-header">
+                        <h1 class="h2">What's this</h1>
+                        <div class=" card-body whatsCardBody">
+                            <h5 class="card-title">About Us</h5>
+                            <p class="card text ">Lorem ipsum dolor sit amet, vim an inani melius, sed no nulla dignissim conclusionemque. Eos esse minim luptatum ne, et vel causae tractatos. Eam nusquam accumsan cu, libris mentitum ea usu. Falli quodsi conclusionemque ut eam, nisl cetero gloriatur vix ex, nemore deterruisset ex vis. Nulla inermis maiestatis ut has, sit sumo repudiare ut. Essent sententiae eu sed, ne perfecto splendide inciderint mel, te sint cotidieque delicatissimi sea. Assum mandamus partiendo pri no, te duo reque ullum.
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>                          
+
+    <hr>
+
+    <!-- lets start -->
+    <div class="letsStart container-fluid">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4 align-self-center">
+                <a href="#dietContainerId"><img class=" arrowImag img-fluid "  src="/images/ezgif.com-gif-maker.gif" width="1000px" alt="arrow" ><a href="#dietContainerId"><img class=" letsDoit card-img-overlay my-auto"  src="https://media.giphy.com/media/kBkz2DEqEjwCNWdits/giphy.gif" alt="arrow" width="100%"></a></a>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+    <!-- diet selector -->
+    <div class=" boxDiet container-fluid my-5" id="dietContainerId">
+        <div class="row my-3 mx-3">
+            <div class="col-sm-6 col-lg-3">
+                <div card="card " id="ketoCard" >
+                    <a class="text-decoration-none" href="#">
+                        <div class="card-body ketoCard text-center">
+                            <h2 class="card-title">KETO DIET</h2>
+                            <p class="card-text mt-3 h9">70 / 30/  10</p>
+                        </div>
+                    </a>
+                </div>
+            </div> 
+            <div class="col-sm-6 col-lg-3 mt-3 mt-sm-0">
+                <div card="card" id="carniCard" > 
+                    <a class="text-decoration-none" href="#">
+                        <div class="card-body CarnivoreCard text-center">
+                            <h2 class="card-title">CARNIVORE</h2>
+                            <p class="card-text mt-3 h9">90 / 10/  0</p>
+                        </div>
+                    </a>
+                </div>
+            </div> 
+            <div class="col-sm-6 col-lg-3 mt-3 mt-lg-0">
+                <div card="card" id="veganCard" > 
+                    <a class="text-decoration-none" href="#">
+                        <div class="card-body veganCard text-center">
+                            <h2 class="card-title">VEGAN</h2>
+                            <p class="card-text mt-3 h9">X / X/ X</p>
+                        </div>
+                    </a>
+                </div>
+            </div> 
+            <div class="col-sm-6 col-lg-3 mt-3 mt-lg-0">
+                <div card="card" id="regularCard" > 
+                    <a class="text-decoration-none" href="#">
+                        <div class="card-body regularCard text-center">
+                            <h2 class="card-title">REGULAR</h2>
+                            <p class="card-text mt-3 h9">X / X/ X</p>
+                        </div>
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="page-footer font-small blue-gray lighten-5">
+
+        <div style="background-color: #21d192;">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">Get connected with us on social media</h6>
+                    </div>
+
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f white-text mr-4"></i>
+                        </a>
+
+                        
+                    </div>
+
+
+                </div>
+            </div>
+        
+        </div>
+    </footer>
+
+
     
 
     <!-- jQuery Popper bootstrap scripts -->
