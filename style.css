@@ -165,6 +165,28 @@ input[type="search"]::placeholder {
     box-shadow: 5px 5px rgb(177, 118, 233);
 }
 
+.contSocialFooter{
+    background-color: rgb(32, 218, 141);
 }
 
+.socialLinks a:link{
+    color: white;
+}
+
+.socialLinks a:visited{
+    color: white;
+}
+
+.socialLinks a:hover{
+    color: palevioletred;
+}
+
+.contFooterLinks{
+    background-color: rgb(220, 222, 224);
+}
+
+.footerDiet hr{
+    width: 100px;
+    background-color: limegreen;
+}
 
