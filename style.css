@@ -10,9 +10,10 @@ body{
 
 
 .jumbotron{
-    background-image: url('https://media.giphy.com/media/o9ngTPVYW4qo8/giphy.gif');
+    /* background-image: url('https://media.giphy.com/media/o9ngTPVYW4qo8/giphy.gif');
     background-size: cover;
-    background-position-y: 50%;
+    background-position-y: 50%; */
+    background: linear-gradient(to right,rgb(62, 225, 231),rgb(158, 233, 243),rgb(215, 246, 253) );
 }
 
 .jumboH1{
@@ -26,15 +27,16 @@ body{
 
 .navTitle{
     font-size: 2rem;
+    
 } 
 
 .navigation {
     /* background-image: url('https://media.giphy.com/media/3oEjHVSUZWvTnNxQZ2/giphy.gif'); */
-    background-image: url('https://media.giphy.com/media/mRwX2ypdGtfa0/giphy.gif');
+    background: url('https://media.giphy.com/media/26xBy4g1eHS1vqZRS/giphy.gif');
     background-repeat: no-repeat;
-    background-size: 60%;
-    background-position-y: 50%;
-    background-position-x: 120%;
+    background-size: 50%;
+    background-position-y: 120px;
+    background-position-x: 100%;
     
     font-size: 1.5rem;
 }
@@ -49,20 +51,25 @@ body{
 }
 
 .dropdown-menu{
-    background-image:url('https://media.giphy.com/media/3oEjHVSUZWvTnNxQZ2/giphy.gif') ;
+    background-color: rgb(250, 243, 235);
+    background-image:url('https://media.giphy.com/media/3oz8xDzuVDbKoU4shi/giphy.gif') ;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-y: 50%;
+    background-position-x: 100%;
 }
 
 .btn-search{
-    background-color: palevioletred;
+    background-color: rgb(113, 230, 200);
     color: white;
-    border-color: pink;
+    border-color: rgb(16, 187, 135);
     font-size: 1.5rem;
 }
 
 .btn-search:hover{
-    background-color: rgb(162, 87, 231);
+    background-color: rgb(43, 198, 236);
     color: white;
-    border-color: pink;
+    border-color:rgb(59, 238, 229);
 }
 
 .search-box{
@@ -70,9 +77,9 @@ body{
 }
 
 .search-box:focus{
-    border: 3px solid pink;
+    border: 3px solid rgb(51, 224, 167);
 
-    box-shadow : 5px 5px plum;
+    box-shadow : 5px 5px rgb(59, 238, 229);
 }
 
 .buttonNavBar{
@@ -80,9 +87,9 @@ body{
 }
 
 .buttonNavBar:focus{
-    box-shadow : 5px 5px plum;
-    border-color: palevioletred;
-    outline-color: palevioletred;
+    box-shadow : 5px 5px rgb(59, 238, 229);
+    border-color: rgb(51, 224, 167);
+    outline-color: rgb(113, 226, 156);
 }
 
 input[type="search"]::placeholder {  
@@ -166,7 +173,7 @@ input[type="search"]::placeholder {
 }
 
 .contSocialFooter{
-    background-color: rgb(32, 218, 141);
+    background-color: rgb(68, 231, 196);
 }
 
 .socialLinks a:link{
@@ -178,15 +185,87 @@ input[type="search"]::placeholder {
 }
 
 .socialLinks a:hover{
-    color: palevioletred;
+    color: rgb(26, 29, 204);
 }
 
 .contFooterLinks{
     background-color: rgb(220, 222, 224);
 }
 
-.footerDiet hr{
+.footerDiet hr , .hrLetsDoThis{
     width: 100px;
-    background-color: limegreen;
+    background-color: rgb(153, 241, 215);
 }
 
+.slideCardBody{
+    background-color:rgb(246, 254, 255); 
+
+    
+}
+
+
+.textDivCard{
+    font-size: 2rem;
+}
+
+.carousel-item h5{
+    font-size: 2rem;
+
+}
+#informativeCarouselFade{
+    height: 300px;
+    width: auto;
+    overflow: auto;
+    background-color: rgb(149, 250, 203);
+
+}
+
+#informativeCarouselFade img{
+    height: 300px;
+    width: auto;
+    overflow: auto;
+}
+
+.stepForm {
+    display: none;
+}
+
+.nameInput{
+    background-color: rgba(42, 211, 211, 0.5);
+}
+
+.weightInput{
+    background-color: rgb(113, 226, 156,0.5);
+}
+
+
+.ageInput{
+    background-color: rgba(42, 211, 211, 0.5);
+}
+
+
+
+.sexInput{
+    background-color: rgb(113, 226, 156,0.5);
+}
+
+.dietInput{
+    background-color: rgba(42, 211, 211, 0.5);
+}
+
+.invalid {
+    border: 2px solid rgb(201, 25, 25) !important;
+}
+
+#next-button:disabled{
+    cursor: not-allowed;
+}
+
+.backarrow {
+    color: rgb(62, 226, 199);
+
+}
+
+.backarrow:hover{
+    cursor: pointer;
+}
